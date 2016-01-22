@@ -15,7 +15,7 @@ var {
  *
  * @author https://github.com/bltnico
  * @url https://github.com/bltnico/react-user-avatar
- * @version 1.0.2
+ * @version 1.0.3
  *
  * @example
  *

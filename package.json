@@ -1,6 +1,6 @@
 {
   "name": "react-useravatar-native",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create a unique avatar by using username as background color",
   "main": "index.js",
   "scripts": {
