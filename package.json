@@ -1,0 +1,30 @@
+{
+  "name": "react-useravatar-native",
+  "version": "1.0.0",
+  "description": "Create a unique avatar by using username as background color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Bellot <contact@nicolasbellot.fr>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bltnico/react-user-avatar-native"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "user-avatar",
+    "android",
+    "ios"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "react-native": "^0.18.1"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.3.13"
+  }
+}
