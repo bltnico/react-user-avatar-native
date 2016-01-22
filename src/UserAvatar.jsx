@@ -15,7 +15,7 @@ var {
  *
  * @author https://github.com/bltnico
  * @url https://github.com/bltnico/react-user-avatar
- * @version 1.0.0
+ * @version 1.0.2
  *
  * @example
  *
@@ -221,6 +221,10 @@ UserAvatar.propTypes = {
  */
 UserAvatar.defaultProps = {
     size : 100,
+    onPress : () => {},
+    onPressIn : () => {},
+    onPressOut : () => {},
+    onLongPress : () => {},
     textLength : 2,
     textColor : "#ffffff",
     borderStyle : false
