@@ -50,35 +50,6 @@ export default class UserAvatar extends React.Component {
     }
 
     /**
-     * @static
-     * Define UserAvatar propTypes
-     */
-    static propTypes = {
-        username : PropTypes.string.isRequired,
-        style : PropTypes.object,
-        textStyle : PropTypes.object,
-        size : PropTypes.number,
-        onPress : PropTypes.func,
-        onPressIn : PropTypes.func,
-        onPressOut : PropTypes.func,
-        onLongPress : PropTypes.func,
-        textLength : PropTypes.number,
-        textColor : PropTypes.string,
-        borderStyle : PropTypes.bool,
-    }
-
-    /**
-     * @static
-     * Init default UserAvatar props
-     */
-    static defaultProps = {
-        size : 100,
-        textLength : 2,
-        textColor : "#ffffff",
-        borderStyle : false
-    }
-
-    /**
      * @static getColor
      * @param {String} str
      * @return {String}
@@ -227,3 +198,30 @@ let styles = StyleSheet.create({
         justifyContent : 'center'
     }
 });
+
+/**
+ * Define UserAvatar propTypes
+ */
+UserAvatar.propTypes = {
+    username : React.PropTypes.string.isRequired,
+    style : React.PropTypes.object,
+    textStyle : React.PropTypes.object,
+    size : React.PropTypes.number,
+    onPress : React.PropTypes.func,
+    onPressIn : React.PropTypes.func,
+    onPressOut : React.PropTypes.func,
+    onLongPress : React.PropTypes.func,
+    textLength : React.PropTypes.number,
+    textColor : React.PropTypes.string,
+    borderStyle : React.PropTypes.bool,
+};
+
+/**
+ * Init default UserAvatar props
+ */
+UserAvatar.defaultProps = {
+    size : 100,
+    textLength : 2,
+    textColor : "#ffffff",
+    borderStyle : false
+};
