@@ -10,13 +10,25 @@ Run `npm i react-useravatar --save`
 
 * **username** *string* (required)
 
-* **size** *integer* : Default is 100px
+* **size** *integer*
 
-* **onClick** *function* : Event when user click on avatar
+* **style** *object*
 
-* **textColor** *string* : Username text color, default #ffffff
+* **onPress** *function*
 
-* **borderStyle** *boolean* : coming soon ...
+* **onLongPress** *function*
+
+* **onPressIn** *function*
+
+* **onPressOut** *function*
+
+* **textLength** *integer*
+
+* **textStyle** *object*
+
+* **textColor** *string*
+
+* **borderStyle** *boolean*
 
 ## Static
 
