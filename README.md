@@ -1,8 +1,8 @@
-# react-user-avatar
+# react-useravatar-native
 
 ## Install
 
-Run `npm i react-useravatar --save`
+Run `npm i react-useravatar-native --save`
 
 ![alt UserAvatar demo](/demo.JPG)
 
