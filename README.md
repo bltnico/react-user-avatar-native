@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/react-useravatar-native.svg)](https://badge.fury.io/js/react-useravatar-native)
+
 # react-useravatar-native
 
 ## Install
