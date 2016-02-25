@@ -12,7 +12,7 @@ Run `npm i react-useravatar-native --save`
 
 **Basic**
 
-```
+```javascript
 import UserAvatar from 'react-useravatar-native'
 
 ...
@@ -30,7 +30,7 @@ render() {
 
 **Custom design**
 
-```
+```javascript
 import UserAvatar from 'react-useravatar-native'
 
 ...
@@ -88,10 +88,6 @@ let styles = StyleSheet.create({
 * **textColor** *string*
 
 * **borderStyle** *boolean*
-
-## Static
-
-* **getColor** *function* : Get color with username, ex `UserAvatar.getColor("bltnico")` return `044FD1`
 
 ## Dev and test
 
